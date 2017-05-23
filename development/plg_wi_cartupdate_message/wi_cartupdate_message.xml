@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" method="upgrade" group="hikashop">
+
+	<name>wi_cartupdate_message</name>
+	<author><%= author %></author>
+	<creationDate><%= grunt.template.today('yyyy-mm-dd') %></creationDate>
+	<copyright>Copyright © <%= grunt.template.today('yyyy') %>, <%= author %>, All Rights Reserved.</copyright>
+	<license><%= license %></license>
+	<authorEmail><%= author %></authorEmail>
+	<authorUrl><%= author_url %></authorUrl>
+	<version><%= version %></version>
+	<description><%= descr %></description>
+
+	<files>
+		<filename plugin="wi_cartupdate_message">wi_cartupdate_message.php</filename>
+	</files>
+	<!-- <params addpath="/components/com_hikashop/params">
+		<param name="period" type="text" size="50" default="7200" label="PERIOD" description="WAITLIST_NOTIFY_PERIOD" />
+		<param name="last_cron_update" type="text" size="50" default="1274903175" label="HIKA_LAST_UPDATE" description="PRODUCTS_LAST_UPDATE" />
+	</params>
+	<config>
+		<fields name="params" addfieldpath="/components/com_hikashop/fields">
+			<fieldset name="basic">
+				<field
+					name="period"
+					type="text"
+					label="PERIOD"
+					size="50"
+					default="7200"
+					description="WAITLIST_NOTIFY_PERIOD" />
+				<field
+					name="last_cron_update"
+					type="text"
+					label="HIKA_LAST_UPDATE"
+					size="50"
+					default="1274903175"
+					description="PRODUCTS_LAST_UPDATE" />
+			</fieldset>
+		</fields>
+	</config> -->
+</extension>
